@@ -1,0 +1,382 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7590782851459831094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/ExplorationFootsteps/Terrain
+  m_EditorClassIdentifier: 
+  Name: Terrain
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 1953959407
+    data2: 2983662708
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Concrete
+  - Metal
+  Exists: 1
+--- !u!114 &-5641145063126128079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/Music/Notes
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/Music/Notes
+  Guid:
+    Data1: -1405983787
+    Data2: 1160180061
+    Data3: -996914007
+    Data4: 504639634
+  Banks:
+  - {fileID: 7242705209122021970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 7603004047213596446}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-27415934815315898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/Music/Alarm
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/Music/Alarm
+  Guid:
+    Data1: 2017728753
+    Data2: 1149127854
+    Data3: -1993774170
+    Data4: -2025932060
+  Banks:
+  - {fileID: 7242705209122021970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 4015256047649388245}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 3951768853011165516}
+  - {fileID: 4293333402034784731}
+  - {fileID: 901812349945710882}
+  - {fileID: 4646772811301024827}
+  - {fileID: 7242705209122021970}
+  EditorEvents:
+  - {fileID: 3290592947530679721}
+  - {fileID: 1413861482312389809}
+  - {fileID: -5641145063126128079}
+  - {fileID: -27415934815315898}
+  - {fileID: 1032809752568603574}
+  - {fileID: 1721885171837177772}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: 901812349945710882}
+  StringsBanks:
+  - {fileID: 3951768853011165516}
+  cacheTime: 638684303886577474
+  cacheVersion: 131620
+--- !u!114 &901812349945710882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: FuturePuzzleAudio/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638683474598297855
+  FileSizes:
+  - Name: Desktop
+    Value: 1486
+  Exists: 1
+--- !u!114 &1032809752568603574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/PlayerSFX/ExplorationFootsteps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/PlayerSFX/ExplorationFootsteps
+  Guid:
+    Data1: 1702893671
+    Data2: 1229906956
+    Data3: -1319299940
+    Data4: 1481491184
+  Banks:
+  - {fileID: 7242705209122021970}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7590782851459831094}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1413861482312389809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/BunkerMusic
+  m_EditorClassIdentifier: 
+  Path: event:/Music/BunkerMusic
+  Guid:
+    Data1: -162233202
+    Data2: 1269590557
+    Data3: 700797885
+    Data4: -1531955150
+  Banks:
+  - {fileID: 4646772811301024827}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &1721885171837177772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/Dancing/DanceMusic
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/Dancing/DanceMusic
+  Guid:
+    Data1: 1036309658
+    Data2: 1242653228
+    Data3: 2097526204
+    Data4: -1072075152
+  Banks:
+  - {fileID: 4646772811301024827}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66912
+--- !u!114 &3290592947530679721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambience/BunkerAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Ambience/BunkerAmbience
+  Guid:
+    Data1: 1843004886
+    Data2: 1272019366
+    Data3: 1333330102
+    Data4: 598970875
+  Banks:
+  - {fileID: 4293333402034784731}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &3951768853011165516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: FuturePuzzleAudio/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638684303886577474
+  FileSizes:
+  - Name: Desktop
+    Value: 1444
+  Exists: 1
+--- !u!114 &4015256047649388245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Alarm/WinOrLose
+  m_EditorClassIdentifier: 
+  Name: WinOrLose
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 431739306
+    data2: 1769668071
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Win
+  - Lose
+  Exists: 1
+--- !u!114 &4293333402034784731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambiance.bank
+  m_EditorClassIdentifier: 
+  Path: FuturePuzzleAudio/Build/Desktop/Ambiance.bank
+  Name: Ambiance
+  StudioPath: bank:/Ambiance
+  lastModified: 638675594452117627
+  FileSizes:
+  - Name: Desktop
+    Value: 1488
+  Exists: 1
+--- !u!114 &4646772811301024827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: FuturePuzzleAudio/Build/Desktop/Music.bank
+  Name: Music
+  StudioPath: bank:/Music
+  lastModified: 638684303883823339
+  FileSizes:
+  - Name: Desktop
+    Value: 893632
+  Exists: 1
+--- !u!114 &7242705209122021970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: FuturePuzzleAudio/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 638684303886412582
+  FileSizes:
+  - Name: Desktop
+    Value: 192896
+  Exists: 1
+--- !u!114 &7603004047213596446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Notes/Note
+  m_EditorClassIdentifier: 
+  Name: Note
+  StudioPath: 
+  Min: 0
+  Max: 6
+  Default: 0
+  ID:
+    data1: 4273054493
+    data2: 1500308089
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Do
+  - Re
+  - Mi
+  - Fa
+  - Sol
+  - La
+  - Si
+  Exists: 1

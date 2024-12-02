@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5105265470123404620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3974608831385219754}
+  - component: {fileID: 8202348598612632684}
+  m_Layer: 0
+  m_Name: FMODEvents
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3974608831385219754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105265470123404620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6748869686597357127}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8202348598612632684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5105265470123404620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e117f3406ab3a49bb8d420fe61204d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <Ambience>k__BackingField:
+    Guid:
+      Data1: 1843004886
+      Data2: 1272019366
+      Data3: 1333330102
+      Data4: 598970875
+    Path: event:/Ambience/BunkerAmbience
+  <Music>k__BackingField:
+    Guid:
+      Data1: -162233202
+      Data2: 1269590557
+      Data3: 700797885
+      Data4: -1531955150
+    Path: event:/Music/BunkerMusic
+  <PlayerFootsteps>k__BackingField:
+    Guid:
+      Data1: 1702893671
+      Data2: 1229906956
+      Data3: -1319299940
+      Data4: 1481491184
+    Path: event:/SFX/PlayerSFX/ExplorationFootsteps
+  <MusicNotes>k__BackingField:
+    Guid:
+      Data1: 21042437
+      Data2: 1140700521
+      Data3: -1100484715
+      Data4: -2119063951
+    Path: event:/SFX/Puzzles/Music/Notes
+  <Alarm>k__BackingField:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
+  <DanceMusic>k__BackingField:
+    Guid:
+      Data1: -1686931722
+      Data2: 1117275453
+      Data3: 959208839
+      Data4: 743742117
+    Path: event:/SFX/Puzzles/Dancing/DanceMusic
+--- !u!1 &6714494161069591221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6748869686597357127}
+  - component: {fileID: 2833179699879123665}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &6748869686597357127
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714494161069591221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3974608831385219754}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2833179699879123665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6714494161069591221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a816b5fb05127bf4f95771b08817289e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MasterVolume: 1
+  MusicVolume: 1
+  AmbienceVolume: 1
+  SFXVolume: 1

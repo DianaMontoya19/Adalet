@@ -1,0 +1,242 @@
+fileFormatVersion: 2
+guid: 241900c1063f9be4b9ed4523155b3d08
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Contenedor_Contenedor_BaseColor
+    second: {fileID: 2800000, guid: d7c2b383a26941748979d25365a97333, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Contenedor_Contenedor_Metallic
+    second: {fileID: 2800000, guid: 5b35b6ac5a20c234e8855c6761347997, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Contenedor_Contenedor_Normal
+    second: {fileID: 2800000, guid: 2d552bc07ed3ea64f84468363aa57efe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Contenedor_Contenedor_Roughness
+    second: {fileID: 2800000, guid: 00b0b31204ef5c748a83284e63541bb5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_Door_BaseColor
+    second: {fileID: 2800000, guid: 514a91b362e412346bb5ea63ba9be288, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_Door_Metallic
+    second: {fileID: 2800000, guid: 1afc987745388b3468c9b38a34f304bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_Door_Normal
+    second: {fileID: 2800000, guid: 600d5c5da2d3bab47856cbfc4ccf42b8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Door_Door_Roughness
+    second: {fileID: 2800000, guid: b2a0cc8321151f34ea92989c3271e096, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamp_FloorLamp_BaseColor
+    second: {fileID: 2800000, guid: 8e6a02b14dd470645b0f31f4775ab184, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamp_FloorLamp_Emissive
+    second: {fileID: 2800000, guid: 3a5cf08f8919ed5458b41d3f0407c820, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamp_FloorLamp_Metallic
+    second: {fileID: 2800000, guid: 5a14aceecf5e5324cac81a3651e624fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamp_FloorLamp_Normal
+    second: {fileID: 2800000, guid: 012eced983874174dbde9c1cd9d01aa9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Lamp_FloorLamp_Roughness
+    second: {fileID: 2800000, guid: 12aac7b8dd2097349a81229d2cb74a63, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Locker_Locker_02_BaseColor
+    second: {fileID: 2800000, guid: e37e814c9f8f6d24cbd9f2612b6d6ed1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Locker_Locker_02_Metallic
+    second: {fileID: 2800000, guid: b6c4f0f96998481458eb2453a7258be9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Locker_Locker_02_Normal
+    second: {fileID: 2800000, guid: 0a5aefb2594934743b49f9c27ffa9f46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Locker_Locker_02_Roughness
+    second: {fileID: 2800000, guid: 3fab0fea49c6eef4290e2607a23d2ab1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Panel_BaseColor
+    second: {fileID: 2800000, guid: 602647ffec6a1434fb6a89b1faf957b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Panel_Metallic
+    second: {fileID: 2800000, guid: 7a330a5c893921d47b0fe461f79c4d98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Panel_Normal
+    second: {fileID: 2800000, guid: c1207abaf10ddfe4d8dd05613bcfa1ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Panel_Panel_Roughness
+    second: {fileID: 2800000, guid: f848b2814c516ea4bb5b4d580bdfea12, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concrete_wall_01_color_1k
+    second: {fileID: 2800000, guid: ff26dcfd22226c44f9e7313de51f8ffc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concrete_wall_01_normal_gl_1k
+    second: {fileID: 2800000, guid: 1caa7a8e710cdf2448e0821d003ae8cf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: concrete_wall_01_roughness_1k
+    second: {fileID: 2800000, guid: 76eb485e4a1038c4b84b84e489ad931f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: props2fbx_MAT_Cardboard.001_Diffuse
+    second: {fileID: 2800000, guid: c6ba15043e399234792f4dfd69831124, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: props2fbx_MAT_Cardboard.001_Normal
+    second: {fileID: 2800000, guid: 2385eac9d8e247e4abef341cb38cc941, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: props2fbx_MAT_Cardboard.001_Specular
+    second: {fileID: 2800000, guid: 46d03717cc23dfb4384a1315d2f52616, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
