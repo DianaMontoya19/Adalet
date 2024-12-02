@@ -6,7 +6,7 @@ public class ShooterHackingUI : BeginHackingUI
     {
         MLocator.Instance.HackingUI.Activate();
 
-        MLocator.Instance.HackingManager.StartHacking(_hackData);
+        MLocator.Instance.HackingManager.SetUpHacking(_hackData);
         base.OnConfirmButtonClick();
     }
 

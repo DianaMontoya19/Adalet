@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{e963ba7b-1a75-43c9-8181-23aed12550d7}">
+		<property name="name">
+			<value>Note</value>
+		</property>
+		<relationship name="folder">
+			<destination>{bcff576c-1de6-474d-9b2b-a9b8d9dff4ff}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{611fa600-e99c-4682-a842-f9aa16e8dddd}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{611fa600-e99c-4682-a842-f9aa16e8dddd}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>7</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Do</value>
+			<value>Re</value>
+			<value>Mi</value>
+			<value>Fa</value>
+			<value>Sol</value>
+			<value>La</value>
+			<value>Si</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
