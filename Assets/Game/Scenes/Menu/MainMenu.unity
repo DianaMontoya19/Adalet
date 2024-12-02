@@ -284,6 +284,19 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &227518590 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8617158748234156515, guid: 558133d44a556f542a7b3405373035f8, type: 3}
+  m_PrefabInstance: {fileID: 1374413211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!81 &227518593
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227518590}
+  m_Enabled: 1
 --- !u!114 &481243739 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6362689952025963850, guid: 558133d44a556f542a7b3405373035f8, type: 3}
@@ -888,7 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 1767789318}
     - target: {fileID: 1483068833888827287, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_VersionIndex
-      value: 5353
+      value: 5362
       objectReference: {fileID: 0}
     - target: {fileID: 1490752324561327016, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_DefaultActionMap
@@ -1968,7 +1981,7 @@ PrefabInstance:
       objectReference: {fileID: 1469728895}
     - target: {fileID: 5142691370974464666, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_VersionIndex
-      value: 4625
+      value: 4634
       objectReference: {fileID: 0}
     - target: {fileID: 5327329193779699638, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3006,7 +3019,10 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 6894392413922762735, guid: 558133d44a556f542a7b3405373035f8, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8617158748234156515, guid: 558133d44a556f542a7b3405373035f8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 227518593}
   m_SourcePrefab: {fileID: 100100000, guid: 558133d44a556f542a7b3405373035f8, type: 3}
 --- !u!43 &1469728895
 Mesh:
