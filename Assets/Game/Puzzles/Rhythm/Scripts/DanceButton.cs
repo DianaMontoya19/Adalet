@@ -16,6 +16,7 @@ public class DanceButton : MonoBehaviour
         if (collider.CompareTag(TagStrings.DanceArrow))
         {
             IsArrowInside = true;
+            
         }
     }
 

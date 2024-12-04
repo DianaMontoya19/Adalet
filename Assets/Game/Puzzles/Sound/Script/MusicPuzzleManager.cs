@@ -174,8 +174,9 @@ public class MusicPuzzleManager : BaseUI
                 "Thanks for the birthday gift doctor, your face data shall be useful."
             );
         MLocator.Instance.DialogueUI.Activate();
-
+        MLocator.Instance.GameManager.HasSolvedSinging = true;
         MLocator.Instance.GameManager.SetGameState(GameState.Exploration);
+       
     }
 
     private IEnumerator FailPuzzle()

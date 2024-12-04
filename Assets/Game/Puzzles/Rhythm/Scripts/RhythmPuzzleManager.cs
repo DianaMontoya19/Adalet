@@ -67,9 +67,9 @@ public class RhythmPuzzleManager : MonoBehaviour
     {
         _danceArrowSpawner = GetComponent<DanceArrowSpawner>();
 
+        _leftAction = InputSystem.actions.FindAction(InputStrings.Left);
         _upAction = InputSystem.actions.FindAction(InputStrings.Up);
         _downAction = InputSystem.actions.FindAction(InputStrings.Down);
-        _leftAction = InputSystem.actions.FindAction(InputStrings.Left);
         _rightAction = InputSystem.actions.FindAction(InputStrings.Right);
     }
 
@@ -200,6 +200,7 @@ public class RhythmPuzzleManager : MonoBehaviour
         if (context.started)
         {
             PressButton(_upButton);
+            
         }
         else
         {
