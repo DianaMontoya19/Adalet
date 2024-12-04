@@ -147,7 +147,7 @@ public class RhythmPuzzleManager : MonoBehaviour
     public void EndDancePuzzle()
     {
         IsDancing = false;
-        if (_correctNoteCount >= 90)
+        if (_correctNoteCount >= 70)
         {
             StartCoroutine(WinPuzzle());
         }
