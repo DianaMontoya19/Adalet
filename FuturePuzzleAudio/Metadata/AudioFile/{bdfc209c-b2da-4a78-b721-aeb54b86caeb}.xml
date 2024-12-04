@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{bdfc209c-b2da-4a78-b721-aeb54b86caeb}">
+		<property name="assetPath">
+			<value>Player/Footsteps/Concrete/SFX_StepConcrete_4.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.35927083333333332</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3470cf28-7c1c-40a4-b3d7-1b8719b32826}</destination>
+		</relationship>
+	</object>
+</objects>

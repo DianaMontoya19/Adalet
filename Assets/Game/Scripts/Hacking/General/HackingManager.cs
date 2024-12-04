@@ -79,14 +79,22 @@ public class HackingManager : MonoBehaviour
         );
         _bouncerAliveCount = _bouncers.Length;
     }
-
-    public void StartHacking(ShooterLoadingData hackData)
+    public void SetUpHacking(ShooterLoadingData hackData)
     {
         _hackingSceneToLoad = hackData.SceneToLoad;
         _explorationSceneToLoad = hackData.SceneToReturn;
         _explorationSpawnID = hackData.SceneToReturnSpawnID;
         _hackDurationSeconds = hackData.HackDurationSeconds;
         _currentHack = hackData.HackLevel;
+    }
+
+    public void StartHacking()
+    {
+        //_hackingSceneToLoad = hackData.SceneToLoad;
+        //_explorationSceneToLoad = hackData.SceneToReturn;
+        //_explorationSpawnID = hackData.SceneToReturnSpawnID;
+        //_hackDurationSeconds = hackData.HackDurationSeconds;
+        //_currentHack = hackData.HackLevel;
 
         MLocator
             .Instance
