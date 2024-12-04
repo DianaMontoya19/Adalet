@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{7edde6af-7e4f-4330-a0d8-7a2df8ab9899}">
+		<property name="assetPath">
+			<value>Puzzles/Dancing/Robot Groove.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>66.912000000000006</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3470cf28-7c1c-40a4-b3d7-1b8719b32826}</destination>
+		</relationship>
+	</object>
+</objects>
