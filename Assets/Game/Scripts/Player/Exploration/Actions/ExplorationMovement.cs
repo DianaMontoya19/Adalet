@@ -4,7 +4,8 @@ using UnityEngine.InputSystem;
 
 public class ExplorationMovement : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    [SerializeField]
+    private Animator _animator;
     private Rigidbody _rb;
     private Collider _collider;
 
@@ -39,7 +40,7 @@ public class ExplorationMovement : MonoBehaviour
 
     private void Awake()
     {
-        _animator = FindObjectOfType<Animator>();
+        _animator = FindFirstObjectByType<Animator>();
         _rb = GetComponent<Rigidbody>();
         _collider = GetComponentInChildren<Collider>();
 

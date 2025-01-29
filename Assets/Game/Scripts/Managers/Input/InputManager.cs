@@ -18,6 +18,12 @@ public class InputManager : MonoBehaviour
 
     public void SwitchActionMap(string actionMap = null)
     {
+        if (actionMap.Equals("None"))
+        {
+            _playerInput.actions.Disable();
+            return;
+        }
+
         if (actionMap.Equals(null))
         {
             _playerInput.actions.Disable();
