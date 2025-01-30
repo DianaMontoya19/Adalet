@@ -102,4 +102,9 @@ public class SceneLoader : MonoBehaviour
     {
         _fadeDurationSeconds = duration;
     }
+
+    public void ReloadCurrentScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
 }

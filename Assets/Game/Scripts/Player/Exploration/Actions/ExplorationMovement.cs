@@ -4,7 +4,8 @@ using UnityEngine.InputSystem;
 
 public class ExplorationMovement : MonoBehaviour
 {
-    [SerializeField] private Animator _animator;
+    [SerializeField]
+    private Animator _animator;
     private Rigidbody _rb;
     private Collider _collider;
 
@@ -39,7 +40,7 @@ public class ExplorationMovement : MonoBehaviour
 
     private void Awake()
     {
-        _animator = FindObjectOfType<Animator>();
+        _animator = FindFirstObjectByType<Animator>();
         _rb = GetComponent<Rigidbody>();
         _collider = GetComponentInChildren<Collider>();
 
@@ -100,7 +101,6 @@ public class ExplorationMovement : MonoBehaviour
         _moveInput = context.ReadValue<Vector2>();
         _moveDirection = new Vector3(_moveInput.x, 0.0f, _moveInput.y).normalized;
         _animator.SetFloat("Velx", _moveInput.magnitude);
-        Debug.Log(_moveInput.magnitude);
     }
 
     private void Move()

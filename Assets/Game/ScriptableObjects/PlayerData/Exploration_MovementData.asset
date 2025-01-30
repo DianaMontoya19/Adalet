@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Exploration_MovementData
   m_EditorClassIdentifier: 
   GravityScale: 10
-  MaxSpeed: 18
+  MaxSpeed: 13
   MaxSlopeAngle: 30
-  WalkAcceleration: 16
-  WalkAccelAmount: 17.777779
-  WalkDecceleration: 16
-  WalkDecelAmount: 17.777779
+  WalkAcceleration: 11
+  WalkAccelAmount: 16.923077
+  WalkDecceleration: 11
+  WalkDecelAmount: 16.923077
   RunAccelMult: 1.4
   RunDecelMult: 1.15
   GroundDrag: 9

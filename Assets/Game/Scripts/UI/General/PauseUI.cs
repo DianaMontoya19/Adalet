@@ -10,7 +10,7 @@ public class PauseUI : BaseUI
     private Button _continueButton;
 
     [SerializeField]
-    private Button _settingsButton;
+    private Button _resetButton;
 
     [SerializeField]
     private Button _returnToMenuButton;
@@ -33,7 +33,7 @@ public class PauseUI : BaseUI
         _pauseButtons = new Dictionary<string, Button>()
         {
             { "Continue", _continueButton },
-            { "Settings", _settingsButton },
+            { "Reset", _resetButton },
             { "Menu", _returnToMenuButton },
             { "Desktop", _exitToDesktopButton }
         };
@@ -42,7 +42,7 @@ public class PauseUI : BaseUI
     private void OnEnable()
     {
         _pauseButtons["Continue"].onClick.AddListener(OnContinueButtonClick);
-        _pauseButtons["Settings"].onClick.AddListener(OnSettingsButtonClick);
+        _pauseButtons["Reset"].onClick.AddListener(OnResetButtonClick);
         _pauseButtons["Menu"].onClick.AddListener(OnMenuButtonClick);
         _pauseButtons["Desktop"].onClick.AddListener(OnDesktopButtonClick);
     }
@@ -66,10 +66,10 @@ public class PauseUI : BaseUI
         Deactivate();
     }
 
-    private void OnSettingsButtonClick()
+    private void OnResetButtonClick()
     {
         Deactivate();
-        _settingsScreen.gameObject.SetActive(true);
+        MLocator.Instance.SceneLoader.ReloadCurrentScene();
     }
 
     private void OnMenuButtonClick()
