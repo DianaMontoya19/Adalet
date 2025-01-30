@@ -5813,7 +5813,7 @@ PrefabInstance:
       objectReference: {fileID: 1033728684}
     - target: {fileID: 1483068833888827287, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_VersionIndex
-      value: 5371
+      value: 5419
       objectReference: {fileID: 0}
     - target: {fileID: 1880524714628736452, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_Mesh
@@ -6297,7 +6297,7 @@ PrefabInstance:
       objectReference: {fileID: 1442633408}
     - target: {fileID: 5142691370974464666, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_VersionIndex
-      value: 4643
+      value: 4691
       objectReference: {fileID: 0}
     - target: {fileID: 5187754310402591608, guid: 558133d44a556f542a7b3405373035f8, type: 3}
       propertyPath: m_LocalScale.x
