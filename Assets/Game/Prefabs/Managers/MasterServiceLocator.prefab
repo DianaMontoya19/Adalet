@@ -2737,8 +2737,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6518899833300431613}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.309017, y: -0, z: -0, w: 0.95105654}
-  m_LocalPosition: {x: 9.28, y: 4.9515066, z: -13.083506}
+  m_LocalRotation: {x: 0.40034905, y: 0.000020251486, z: -0.000008847656, w: 0.91636276}
+  m_LocalPosition: {x: -61.49689, y: 44.220757, z: 2.812252}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2809,7 +2809,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 2000
-  field of view: 50
+  field of view: 60
   orthographic: 0
   orthographic size: 3.65
   m_Depth: 0
@@ -7165,6 +7165,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4175044565872505952, guid: da0868d34011da04db743c6e153e54d0, type: 3}
+      propertyPath: _resetButton
+      value: 
+      objectReference: {fileID: 1193672189862710559}
+    - target: {fileID: 4175044565872505952, guid: da0868d34011da04db743c6e153e54d0, type: 3}
       propertyPath: _settingsScreen
       value: 
       objectReference: {fileID: 4528248099136422489}
@@ -7330,6 +7334,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8aeb67077e05f7f469be56be06708b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1193672189862710559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2550901881059924566, guid: da0868d34011da04db743c6e153e54d0, type: 3}
+  m_PrefabInstance: {fileID: 3744278231259567945}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!224 &6591642972116569830 stripped

@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 1792700554210633547}
   - component: {fileID: 2271962830537654064}
   m_Layer: 5
-  m_Name: TXT_Settings
+  m_Name: TXT_Reset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SETTINGS
+  m_text: RESET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1f53289f364b3af41a8cfc1b9534a20e, type: 2}
   m_sharedMaterial: {fileID: 1786247945399601522, guid: 1f53289f364b3af41a8cfc1b9534a20e, type: 2}
@@ -604,7 +604,7 @@ GameObject:
   - component: {fileID: 4842023926213626812}
   - component: {fileID: 2550901881059924566}
   m_Layer: 5
-  m_Name: BTN_Settings
+  m_Name: BTN_Reset
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1453,7 +1453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _UIContainer: {fileID: 3275066236648926638}
   _continueButton: {fileID: 4505138660959245306}
-  _settingsButton: {fileID: 2550901881059924566}
+  _resetButton: {fileID: 2550901881059924566}
   _returnToMenuButton: {fileID: 1920382182411932380}
   _exitToDesktopButton: {fileID: 3426210362086362984}
   _settingsScreen: {fileID: 0}
