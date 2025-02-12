@@ -108,7 +108,6 @@ public class StartUI : BaseUI
                     MLocator.Instance.HackingManager._cinematics.SetActive(true);
                     MLocator.Instance.PlayerSpawner.SetPlayerSpawnPoint();
                     
-                    Debug.Log("entro");
                 }
             );
     }

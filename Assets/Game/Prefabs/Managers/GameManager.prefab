@@ -44,3 +44,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c53f391ecd1982943ac76e089a47f9e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <GameState>k__BackingField: 0
+  _explorationPlayer: {fileID: 0}
+  _hackingPlayer: {fileID: 0}
+  <ActivePlayer>k__BackingField: {fileID: 0}
+  HasEnteredPassword: 0
+  HasSolvedSinging: 0
+  HasSolvedDancing: 0
+  CompletedEntraceHack: 0
+  CompletedCoreHack: 0
+  HasRepairKit: 0
+  HasFacialID: 0
+  HasCoreCode: 0
