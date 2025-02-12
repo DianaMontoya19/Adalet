@@ -21,7 +21,7 @@ public class DancePuzzle : PuzzleInteract
                 .Instance
                 .DialogueUI
                 .SetDialogueText(
-                    "Locked again, I'm going to need some sort of facial ID information for this one."
+                    "Locked again, I'm going to need some sort of facial ID information for this one.  Press ESC"
                 );
             MLocator.Instance.DialogueUI.Activate();
         }
