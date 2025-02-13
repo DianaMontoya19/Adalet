@@ -95,7 +95,7 @@ MonoBehaviour:
   _floorLayer:
     serializedVersion: 2
     m_Bits: 8
-  _footstepSpeed: 0.34
+  _footstepSpeed: 0.2
 --- !u!1 &5227462533448694238
 GameObject:
   m_ObjectHideFlags: 0

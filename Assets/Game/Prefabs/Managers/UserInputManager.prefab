@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b726b18e8b2814a46963daf245bcf7c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerInput: {fileID: 7940082824699516622}
   <ActiveActionMap>k__BackingField: 
 --- !u!114 &7940082824699516622
 MonoBehaviour:

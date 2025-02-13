@@ -67,24 +67,24 @@ MonoBehaviour:
     Path: event:/SFX/PlayerSFX/ExplorationFootsteps
   <MusicNotes>k__BackingField:
     Guid:
-      Data1: 21042437
-      Data2: 1140700521
-      Data3: -1100484715
-      Data4: -2119063951
+      Data1: -1405983787
+      Data2: 1160180061
+      Data3: -996914007
+      Data4: 504639634
     Path: event:/SFX/Puzzles/Music/Notes
   <Alarm>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 2017728753
+      Data2: 1149127854
+      Data3: -1993774170
+      Data4: -2025932060
+    Path: event:/SFX/Puzzles/Music/Alarm
   <DanceMusic>k__BackingField:
     Guid:
-      Data1: -1686931722
-      Data2: 1117275453
-      Data3: 959208839
-      Data4: 743742117
+      Data1: 1036309658
+      Data2: 1242653228
+      Data3: 2097526204
+      Data4: -1072075152
     Path: event:/SFX/Puzzles/Dancing/DanceMusic
 --- !u!1 &6714494161069591221
 GameObject:

@@ -48,12 +48,11 @@ public class HackingManager : MonoBehaviour
 
     [SerializeField, ReadOnly]
     private Bouncer[] _bouncers;
-    private int _bouncerAliveCount;
+
+    public GameObject startCinematic;
 
     [SerializeField]
-    private Animator _transitionAnim;
-
-    [SerializeField] public GameObject _cinematics;
+    private GameObject _endingCinematic;
 
     private void Update()
     {
@@ -77,7 +76,6 @@ public class HackingManager : MonoBehaviour
             FindObjectsInactive.Include,
             FindObjectsSortMode.None
         );
-        _bouncerAliveCount = _bouncers.Length;
     }
 
     public void StartHacking(ShooterLoadingData hackData)
@@ -152,7 +150,6 @@ public class HackingManager : MonoBehaviour
         {
             case HackLevel.Entrace:
                 MLocator.Instance.GameManager.CompletedEntraceHack = true;
-                _cinematics.SetActive(false);
                 MLocator
                     .Instance
                     .DialogueUI
@@ -164,7 +161,7 @@ public class HackingManager : MonoBehaviour
                 break;
             case HackLevel.Core:
                 MLocator.Instance.GameManager.CompletedCoreHack = true;
-                MLocator.Instance.DialogueUI.Activate();
+                _endingCinematic.SetActive(true);
                 break;
         }
 

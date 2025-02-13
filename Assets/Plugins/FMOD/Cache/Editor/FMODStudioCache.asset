@@ -107,12 +107,13 @@ MonoBehaviour:
   - {fileID: -27415934815315898}
   - {fileID: 1032809752568603574}
   - {fileID: 1721885171837177772}
+  - {fileID: 5164952023950620631}
   EditorParameters: []
   MasterBanks:
   - {fileID: 901812349945710882}
   StringsBanks:
   - {fileID: 3951768853011165516}
-  cacheTime: 638684303886577474
+  cacheTime: 638750195710333514
   cacheVersion: 131620
 --- !u!114 &901812349945710882
 MonoBehaviour:
@@ -129,7 +130,7 @@ MonoBehaviour:
   Path: FuturePuzzleAudio/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638683474598297855
+  lastModified: 638750195695806940
   FileSizes:
   - Name: Desktop
     Value: 1486
@@ -258,10 +259,10 @@ MonoBehaviour:
   Path: FuturePuzzleAudio/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638684303886577474
+  lastModified: 638750195695819894
   FileSizes:
   - Name: Desktop
-    Value: 1444
+    Value: 1488
   Exists: 1
 --- !u!114 &4015256047649388245
 MonoBehaviour:
@@ -304,7 +305,7 @@ MonoBehaviour:
   Path: FuturePuzzleAudio/Build/Desktop/Ambiance.bank
   Name: Ambiance
   StudioPath: bank:/Ambiance
-  lastModified: 638675594452117627
+  lastModified: 638679906988250368
   FileSizes:
   - Name: Desktop
     Value: 1488
@@ -324,11 +325,38 @@ MonoBehaviour:
   Path: FuturePuzzleAudio/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638684303883823339
+  lastModified: 638750195709111530
   FileSizes:
   - Name: Desktop
-    Value: 893632
+    Value: 1678880
   Exists: 1
+--- !u!114 &5164952023950620631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Puzzles/Dancing/DanceMusic 2
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Puzzles/Dancing/DanceMusic 2
+  Guid:
+    Data1: 691916022
+    Data2: 1133688467
+    Data3: 1986571138
+    Data4: 1051078354
+  Banks:
+  - {fileID: 4646772811301024827}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 64208
 --- !u!114 &7242705209122021970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -344,7 +372,7 @@ MonoBehaviour:
   Path: FuturePuzzleAudio/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638684303886412582
+  lastModified: 638750195710333514
   FileSizes:
   - Name: Desktop
     Value: 192896

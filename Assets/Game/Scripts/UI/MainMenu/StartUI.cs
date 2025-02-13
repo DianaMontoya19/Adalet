@@ -1,9 +1,6 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.Playables;
-
 #if UNITY_EDITOR
 using UnityEditor;
 #endif
@@ -39,30 +36,25 @@ public class StartUI : BaseUI
     [SerializeField]
     private ExplorationLoadingData _loadingData;
 
-    
-
     private void Awake()
     {
         _menuButtons = new Dictionary<string, Button>()
         {
             { "Start", _startButton },
-            { "Settings", _settingsButton },
             { "Credits", _creditsButton },
             { "Exit", _exitButton }
         };
         _menuScreens = new Dictionary<string, Image>()
         {
             { "MainMenu", _mainMenuScreen },
-            { "Settings", _settingsScreen },
             { "Credits", _creditsScreen }
         };
-        MLocator.Instance.HackingManager._cinematics.SetActive(false);
+        MLocator.Instance.HackingManager.startCinematic.SetActive(false);
     }
 
     private void OnEnable()
     {
         _menuButtons["Start"].onClick.AddListener(OnStartButtonClick);
-        _menuButtons["Settings"].onClick.AddListener(OnSettingsButtonClick);
         _menuButtons["Credits"].onClick.AddListener(OnCreditsButtonClick);
         _menuButtons["Exit"].onClick.AddListener(OnExitButtonClick);
     }
@@ -88,8 +80,6 @@ public class StartUI : BaseUI
 
     private void StartGame()
     {
-        
-       
         MLocator
             .Instance
             .SceneLoader
@@ -99,24 +89,15 @@ public class StartUI : BaseUI
                 {
                     MLocator.Instance.PlayerSpawner.SetSpawnID(_loadingData.SpawnID);
                     MLocator.Instance.GameManager.SetGameState(GameState.Exploration);
-                   
-                    
+
                     Deactivate();
                 },
                 onComplete: () =>
                 {
-                    MLocator.Instance.HackingManager._cinematics.SetActive(true);
+                    MLocator.Instance.HackingManager.startCinematic.SetActive(true);
                     MLocator.Instance.PlayerSpawner.SetPlayerSpawnPoint();
-                    
                 }
             );
-    }
-
-    private void OnSettingsButtonClick()
-    {
-        OnButtonClick();
-
-        _menuScreens["Settings"].gameObject.SetActive(true);
     }
 
     private void OnCreditsButtonClick()

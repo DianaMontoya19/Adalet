@@ -66,13 +66,11 @@ public class GameManager : MonoBehaviour
         {
             case GameState.Exploration:
             case GameState.Dancing:
-            default:
                 EnablePlayerExploration();
                 MLocator.Instance.MouseVisibilityManager.HideMouse();
                 break;
             case GameState.UI:
                 MLocator.Instance.MouseVisibilityManager.ShowMouse();
-                DisableAllPlayers();
                 break;
             case GameState.Hacking:
                 EnablePlayerHacking();

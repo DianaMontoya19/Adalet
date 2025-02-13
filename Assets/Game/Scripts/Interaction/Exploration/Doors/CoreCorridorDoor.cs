@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public class CoreCorridorDoor : Door
 {
     public override void Interact()
@@ -13,7 +11,9 @@ public class CoreCorridorDoor : Door
             MLocator
                 .Instance
                 .DialogueUI
-                .SetDialogueText("It's completly stuck, seems like age got to this one.");
+                .SetDialogueText(
+                    "The door won't budge, seems like the opening mechanisim broke at some point. Maybe I can repair it."
+                );
             MLocator.Instance.DialogueUI.Activate();
         }
     }

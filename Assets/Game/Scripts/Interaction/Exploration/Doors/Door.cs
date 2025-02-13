@@ -36,7 +36,7 @@ public class Door : InteractableObject
             MLocator
                 .Instance
                 .DialogueUI
-                .SetDialogueText("The door won't budge, seems to be locked from the inside.");
+                .SetDialogueText("It's completly stuck, seems like age got to this one.");
             MLocator.Instance.DialogueUI.Activate();
         }
     }

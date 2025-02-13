@@ -46,7 +46,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _loadingScreen: {fileID: 3707054465672842332}
-  _fadeDurationSeconds: 1
+  _mainMenuScene:
+    m_SceneAsset: {fileID: 102900000, guid: f265dd331f3b1d440894f27eae5e3376, type: 3}
+    m_SceneName: MainMenu
+  _fadeDurationSeconds: 0.3
   _transitionCanvasGroup: {fileID: 4802367499352804492}
 --- !u!1 &3539408147489448499
 GameObject:

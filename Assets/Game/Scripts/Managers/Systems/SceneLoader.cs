@@ -10,6 +10,9 @@ public class SceneLoader : MonoBehaviour
     private GameObject _loadingScreen;
 
     [SerializeField]
+    private SceneField _mainMenuScene;
+
+    [SerializeField]
     private float _fadeDurationSeconds = 0.35f;
 
     [SerializeField]
@@ -106,5 +109,10 @@ public class SceneLoader : MonoBehaviour
     public void ReloadCurrentScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void LoadMainMenuScene()
+    {
+        SceneManager.LoadScene(_mainMenuScene);
     }
 }

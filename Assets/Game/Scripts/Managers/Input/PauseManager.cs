@@ -48,9 +48,9 @@ public class PauseManager : MonoBehaviour
     public void Pause()
     {
         Debug.Log("Pause " + IsPaused);
-        MLocator.Instance.GameManager.SetGameState(GameState.UI);
-
         MLocator.Instance.PauseUI.Activate();
+
+        MLocator.Instance.GameManager.SetGameState(GameState.UI);
 
         ManagePauseState(true);
     }

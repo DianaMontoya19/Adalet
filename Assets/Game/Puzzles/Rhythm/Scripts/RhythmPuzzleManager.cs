@@ -7,14 +7,12 @@ using UnityEngine.Playables;
 public class RhythmPuzzleManager : MonoBehaviour
 {
     [Header("Objects")]
-    [SerializeField]
     private InteractionTrigger _trigger;
+    private GameObject _closedDoor;
 
     [SerializeField]
     private GameObject _container;
 
-    [SerializeField]
-    private GameObject _closedDoor;
     private DanceArrowSpawner _danceArrowSpawner;
 
     [Header("FMOD Events")]
@@ -86,16 +84,8 @@ public class RhythmPuzzleManager : MonoBehaviour
 
         _rightAction.started += SetRightPressedButton;
         _rightAction.canceled += SetRightPressedButton;
-    }
 
-    private void Start()
-    {
-        _danceMusic = MLocator
-            .Instance
-            .AudioManager
-            .CreateInstance(MLocator.Instance.FMODEvents.DanceMusic);
-
-        _alarm = MLocator.Instance.AudioManager.CreateInstance(MLocator.Instance.FMODEvents.Alarm);
+        _closedDoor = FindAnyObjectByType<DisapearDoor>().gameObject;
 
         StartDancePuzzle();
     }
@@ -117,6 +107,13 @@ public class RhythmPuzzleManager : MonoBehaviour
 
     public void StartDancePuzzle()
     {
+        _danceMusic = MLocator
+            .Instance
+            .AudioManager
+            .CreateInstance(MLocator.Instance.FMODEvents.DanceMusic);
+
+        _alarm = MLocator.Instance.AudioManager.CreateInstance(MLocator.Instance.FMODEvents.Alarm);
+
         IsDancing = true;
 
         _danceMusic.start();
@@ -131,6 +128,7 @@ public class RhythmPuzzleManager : MonoBehaviour
         while (IsDancing)
         {
             _danceMusic.getPlaybackState(out PLAYBACK_STATE state);
+            Debug.Log(state);
             if (state.Equals(PLAYBACK_STATE.STOPPED))
             {
                 EndDancePuzzle();
@@ -164,8 +162,6 @@ public class RhythmPuzzleManager : MonoBehaviour
         _alarm.start();
 
         yield return Yielders.WaitForSeconds(3.5f);
-
-        MLocator.Instance.GameManager.HasFacialID = true;
 
         _container.SetActive(false);
 

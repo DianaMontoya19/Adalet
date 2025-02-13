@@ -44,11 +44,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44e17be1f1b77db43803f652e6306eac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _player: {fileID: 0}
   <IsHacking>k__BackingField: 0
   <HasCompletedHack>k__BackingField: 0
   <HasFailedHack>k__BackingField: 0
   <RemainingHackTimeSeconds>k__BackingField: 0
   _hackDurationSeconds: 0
   _hackTimeText: {fileID: 0}
+  _hackingSceneToLoad:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 
+  _explorationSceneToLoad:
+    m_SceneAsset: {fileID: 0}
+    m_SceneName: 
   _pillars: []
   _bouncers: []
+  _transitionAnim: {fileID: 0}
+  startCinematic: {fileID: 0}
+  _endingCinematic: {fileID: 0}

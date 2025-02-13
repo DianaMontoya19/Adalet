@@ -9,9 +9,9 @@ public class DancePuzzle : PuzzleInteract
     {
         if (MLocator.Instance.GameManager.HasFacialID)
         {
-            base.Interact();
             MLocator.Instance.InteractionUI.Deactivate();
             MLocator.Instance.GameManager.SetGameState(GameState.Dancing);
+            _puzzleContainer.SetActive(true);
         }
         else
         {
