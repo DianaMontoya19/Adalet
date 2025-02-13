@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{f8d1df1c-a103-4c84-8a19-748a54038d13}">
+		<property name="assetPath">
+			<value>Puzzles/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3470cf28-7c1c-40a4-b3d7-1b8719b32826}</destination>
+		</relationship>
+	</object>
+</objects>
